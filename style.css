@@ -69,13 +69,20 @@ a {
 
 /* add CSS rules for cards and their content here */
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* add missing declarations */
+  max-width: 790px;
+  margin: 100px auto 50px;
+}
+
 .card{
-  width: 45%;
-  /*background-color: #e3f3ff;*/
+  width: 350px;
   margin-bottom : 60px;
-  padding: 25px 25px 60px 25px;
-  box-shadow: 3px 3px rgb(195, 198, 193), -1em 0 .4em;
-  /*border: 2px solid rgba(250, 50, 50, .4);*/
+  padding: 45px 45px 70px ;
+  box-shadow: 4px 4px 5px rgb(195, 198, 193), -1em 0 .4em;
   display: inline-block;
   font-size: 0;
   margin-right: auto;
@@ -86,11 +93,6 @@ a {
 }
 
 .card-title{
-  font-size: 24;
-  font-weight: 500; 
-  margin-bottom: 10px;
-}
-.card-title{
   font-size: 25px;
   font-weight: 500; 
   margin-bottom: 10%;
@@ -98,29 +100,24 @@ a {
 }
 
 .card-text{
-  font-size: 20px;
+  font-family: "PermanentMarker", cursive;
+  font-size: 24px;
   font-weight: 500; 
   color:rgba(225, 218, 218, 0.701);
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 
 .card-image{
   width: 100%;
+  height: 200px;
+  object-fit: contain;
   margin-bottom:25px;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* add missing declarations */
-  max-width: 790px;
-  margin: 100px auto 50px;
 }
 
 .footer{
   background-color: #000;
   display: flex;
+  min-height: 300px;  
 }
 
 /* add a CSS rule for the footer signature */
