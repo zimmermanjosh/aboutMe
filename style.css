@@ -28,20 +28,19 @@ a {
 }
 
 .page {
-  font-family: "Inter", sans-serif;
-  background: #eeeeee;
+  font-family: "Permanent Marker", "Helvetica Neue", Helvetica, Arial;
+  background: #886161;
 }
 
 /* header class  set standards */
 .header {
   height: 100vh;
-  background-color: #eee;
+  background-color: rgba(113, 117, 74, 0.787);
   background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg);
   background-size: cover;
   background-position: center;
   text-align: left;
   font-style: italic;
-  font-family: PermanentMarker;
 }
 
 .header-title {
@@ -72,15 +71,15 @@ a {
 }
 
 .card{
-  width: 350px;
+  width: 45%;
   /*background-color: #e3f3ff;*/
   margin-bottom : 60px;
-  padding: 45px 45px 70px 45px;
-  box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+  padding: 25px 25px 60px 25px;
+  box-shadow: 3px 3px red, -1em 0 .4em;
   /*border: 2px solid rgba(250, 50, 50, .4);*/
   display: inline-block;
   font-size: 0;
-  margin-right: 90;
+  margin-right: auto;
 }
 
 .no-right-margin{
@@ -93,10 +92,18 @@ a {
   font-weight: 500; 
   margin-bottom: 10px;
 }
+.card-title{
+  font-size: 25px;
+  font-weight: 500; 
+  margin-bottom: 10%;
+  color: #000;
+}
 
 .card-text{
-  font-size: 16;
+  font-size: 20px;
   font-weight: 500; 
+  color:rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
 }
 
 .card-image{
