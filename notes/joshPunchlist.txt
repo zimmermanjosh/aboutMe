@@ -1,0 +1,10 @@
+make git 
+make read me 
+download images 
+set pages to somthinq that looks ok 
+set colors 
+write outline for about me 
+make a assetmap reference for images 
+resize margins and pages 
+setup binder 
+walk through pdf in binder 

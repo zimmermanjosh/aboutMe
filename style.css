@@ -36,7 +36,7 @@ a {
 .header {
   height: 100vh;
   background-color: rgba(113, 117, 74, 0.787);
-  background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg);
+  background-image: "";
   background-size: cover;
   background-position: center;
   text-align: left;
