@@ -4,6 +4,13 @@
     url(./fonts/PermanentMarker.woff) format("woff");
 }
 
+/* free images :: https://unsplash.com/ 
+background-image: url(https://unsplash.com/photos/kL3u4Tqfn1s) // cyber punk image
+background-image: url(https://unsplash.com/photos/0eKCOZ11gfk) // blade runner type image
+++ favicons :: https://favicon.io/
+++ favicon Resources :: https://favicon.io/favicon-generator/
+*/
+
 body,
 h1,
 h2,
@@ -25,9 +32,25 @@ a {
   background: #eeeeee;
 }
 
+/* header class  set standards */
 .header {
   height: 100vh;
-  /* add missing declarations */
+  background-color: #eee;
+  background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  font-style: italic;
+  font-family: PermanentMarker;
+}
+
+.header-title {
+  font-size: 140px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  /*padding-top: 100px;*/
+  margin: auto;
 }
 
 /* add a CSS rule for the page title here */
@@ -48,9 +71,15 @@ a {
 
 /* add CSS rules for cards and their content here */
 
-.footer {
+.footer{
+  background-color: #000;
   display: flex;
-  /* add missing declarations */
+}
+
+.footer-author{
+  font-size: 24px;
+  color: #fff;
+  margin: auto;
 }
 
 /* add a CSS rule for the footer signature */
