@@ -29,7 +29,7 @@ a {
 
 .page {
   font-family: "Permanent Marker", "Helvetica Neue", Helvetica, Arial;
-  background: #886161;
+  background: #372828f2;
 }
 
 /* header class  set standards */
@@ -75,7 +75,7 @@ a {
   /*background-color: #e3f3ff;*/
   margin-bottom : 60px;
   padding: 25px 25px 60px 25px;
-  box-shadow: 3px 3px red, -1em 0 .4em;
+  box-shadow: 3px 3px rgb(195, 198, 193), -1em 0 .4em;
   /*border: 2px solid rgba(250, 50, 50, .4);*/
   display: inline-block;
   font-size: 0;
@@ -96,13 +96,13 @@ a {
   font-size: 25px;
   font-weight: 500; 
   margin-bottom: 10%;
-  color: #000;
+  color: rgb(242, 234, 234);
 }
 
 .card-text{
   font-size: 20px;
   font-weight: 500; 
-  color:rgba(0, 0, 0, 0.5);
+  color:rgba(225, 218, 218, 0.701);
   margin-bottom: 10px;
 }
 
