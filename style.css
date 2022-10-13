@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Permanent Marker";
   src: url(./fonts/PermanentMarker.ttf) format("truetype"),
@@ -28,7 +29,7 @@ a {
 }
 
 .page {
-  font-family: "Permanent Marker", "Helvetica Neue", Helvetica, Arial;
+  font-family: "Inter", sans-serif;;
   background: #372828f2;
 }
 
@@ -36,25 +37,28 @@ a {
 .header {
   height: 100vh;
   background-color: rgba(113, 117, 74, 0.787);
-  background-image: "";
+  background-image: url("https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg");
   background-size: cover;
   background-position: center;
   text-align: left;
   font-style: italic;
 }
 
-.header-title {
-  font-size: 140px;
-  color: white;
-  text-shadow: #000;
-  font-style: italic;
-  text-transform: uppercase;
-  font-weight: 500;
-  /*padding-top: 100px;*/
-  margin: auto;
-}
-
 /* add a CSS rule for the page title here */
+
+.header-title {
+  font-family: "PermanentMarker",cursive;
+  font-size: 140px;
+  line-height: 140px;
+  color: white;
+  text-transform: uppercase;
+  max-width: 1240px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin: auto;
+  /* i dont like center ,,, but ill do it anyway */
+}
 
 .overlay {
   width: 100%;
@@ -63,12 +67,7 @@ a {
   display: flex;
 }
 
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* add missing declarations */
-}
+/* add CSS rules for cards and their content here */
 
 .card{
   width: 45%;
@@ -86,7 +85,6 @@ a {
   margin-right: 0;
 }
 
-/* add CSS rules for cards and their content here */
 .card-title{
   font-size: 24;
   font-weight: 500; 
@@ -111,15 +109,25 @@ a {
   margin-bottom:25px;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* add missing declarations */
+  max-width: 790px;
+  margin: 100px auto 50px;
+}
+
 .footer{
   background-color: #000;
   display: flex;
 }
 
+/* add a CSS rule for the footer signature */
 .footer-author{
   font-size: 24px;
   color: #fff;
   margin: auto;
 }
 
-/* add a CSS rule for the footer signature */
+

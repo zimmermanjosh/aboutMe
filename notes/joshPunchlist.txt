@@ -8,3 +8,9 @@ make a assetmap reference for images
 resize margins and pages 
 setup binder 
 walk through pdf in binder 
+/* free images :: https://unsplash.com/ 
+background-image: url(https://unsplash.com/photos/kL3u4Tqfn1s) // cyber punk image
+background-image: url(https://unsplash.com/photos/0eKCOZ11gfk) // blade runner type image
+++ favicons :: https://favicon.io/
+++ favicon Resources :: https://favicon.io/favicon-generator/
+*/
