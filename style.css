@@ -47,6 +47,8 @@ a {
 .header-title {
   font-size: 140px;
   color: white;
+  text-shadow: #000;
+  font-style: italic;
   text-transform: uppercase;
   font-weight: 500;
   /*padding-top: 100px;*/
@@ -69,7 +71,38 @@ a {
   /* add missing declarations */
 }
 
+.card{
+  width: 350px;
+  /*background-color: #e3f3ff;*/
+  margin-bottom : 60px;
+  padding: 45px 45px 70px 45px;
+  box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+  /*border: 2px solid rgba(250, 50, 50, .4);*/
+  display: inline-block;
+  font-size: 0;
+  margin-right: 90;
+}
+
+.no-right-margin{
+  margin-right: 0;
+}
+
 /* add CSS rules for cards and their content here */
+.card-title{
+  font-size: 24;
+  font-weight: 500; 
+  margin-bottom: 10px;
+}
+
+.card-text{
+  font-size: 16;
+  font-weight: 500; 
+}
+
+.card-image{
+  width: 100%;
+  margin-bottom:25px;
+}
 
 .footer{
   background-color: #000;
