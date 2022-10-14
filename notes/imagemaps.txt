@@ -1,9 +1,0 @@
-src="https://i.pinimg.com/originals/77/53/e7/7753e70d22a83a515a903ddc18b0f1e3.jpg">aboutMe/About Me Starter Code/aboutMe/images/_vintageCreepyFamily.jpg
-++++++++++++++++++++++++++++++++
-src="https://i.dailymail.co.uk/i/pix/2017/08/28/13/43A2DDB000000578-4829638-image-a-114_1503924705500.jpg">aboutMe/About Me Starter Code/aboutMe/images/_vintageCreepyCodeMonkey.jpg
-++++++++++++++++++++++++++++++++
-src="https://i1.sndcdn.com/avatars-000630047892-jz11yk-t500x500.jpg">aboutMe/About Me Starter Code/aboutMe/images/_vintageGhostPiano.jpg
-++++++++++++++++++++++++++++++++
-src="https://i.pinimg.com/originals/0b/50/8a/0b508a5e44518bb6db49882086f5ef81.jpg">aboutMe/About Me Starter Code/aboutMe/images/_vintageCreepyClownTwins.jpg
-++++++++++++++++++++++++++++++++
-url(https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg)aboutMe/About Me Starter Code/aboutMe/images/_yandexCard-1NeonSymbols.jpg
