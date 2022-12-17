@@ -1,8 +1,16 @@
+
 @font-face {
   font-family: "Permanent Marker";
   src: url(./fonts/PermanentMarker.ttf) format("truetype"),
     url(./fonts/PermanentMarker.woff) format("woff");
 }
+
+/* free images :: https://unsplash.com/ 
+background-image: url(https://unsplash.com/photos/kL3u4Tqfn1s) // cyber punk image
+background-image: url(https://unsplash.com/photos/0eKCOZ11gfk) // blade runner type image
+++ favicons :: https://favicon.io/
+++ favicon Resources :: https://favicon.io/favicon-generator/
+*/
 
 body,
 h1,
@@ -21,16 +29,36 @@ a {
 }
 
 .page {
-  font-family: "Inter", sans-serif;
-  background: #eeeeee;
+  font-family: "Inter", sans-serif;;
+  background: #372828f2;
 }
 
+/* header class  set standards */
 .header {
   height: 100vh;
-  /* add missing declarations */
+  background-color: rgba(113, 117, 74, 0.787);
+  background-image: url("https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  font-style: italic;
 }
 
 /* add a CSS rule for the page title here */
+
+.header-title {
+  font-family: "PermanentMarker",cursive;
+  font-size: 140px;
+  line-height: 140px;
+  color: white;
+  text-transform: uppercase;
+  max-width: 1240px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin: auto;
+  /* i dont like center ,,, but ill do it anyway */
+}
 
 .overlay {
   width: 100%;
@@ -39,18 +67,64 @@ a {
   display: flex;
 }
 
+/* add CSS rules for cards and their content here */
+
 .content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   /* add missing declarations */
+  max-width: 790px;
+  margin: 100px auto 50px;
 }
 
-/* add CSS rules for cards and their content here */
+.card{
+  width: 350px;
+  margin-bottom : 60px;
+  padding: 45px 45px 70px ;
+  box-shadow: 4px 4px 5px rgb(195, 198, 193), -1em 0 .4em;
+  display: inline-block;
+  font-size: 0;
+  margin-right: auto;
+}
 
-.footer {
+.no-right-margin{
+  margin-right: 0;
+}
+
+.card-title{
+  font-size: 25px;
+  font-weight: 500; 
+  margin-bottom: 10%;
+  color: rgb(242, 234, 234);
+}
+
+.card-text{
+  font-family: "PermanentMarker", cursive;
+  font-size: 24px;
+  font-weight: 500; 
+  color:rgba(225, 218, 218, 0.701);
+  margin-bottom: 100px;
+}
+
+.card-image{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom:25px;
+}
+
+.footer{
+  background-color: #000;
   display: flex;
-  /* add missing declarations */
+  min-height: 300px;  
 }
 
 /* add a CSS rule for the footer signature */
+.footer-author{
+  font-size: 24px;
+  color: #fff;
+  margin: auto;
+}
+
+
